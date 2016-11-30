@@ -1,26 +1,16 @@
+/* For testing only */
 
-.carousel-control.left, .carousel-control.right {
-    background-image: none
+:not(body):not(html) {
+  box-sizing:border-box;
+  border:1px dashed #000;
 }
+
+/*above is for testing only*/
+
+
+
 .carouselwrapper {
   position: relative;
   display: block;
   width:auto;
-}
-.carousel-indicators {
-  position: absolute;
-  bottom: 0;
-  right: 0;
-  left: 0;
-  width: 100%;
-  z-index: 15;
-  margin: 0;
-  padding: 0 25px 25px 0;
-  text-align: center;
-}
-.navbar {
-  position: relative;
-  display: block;
-  width: auto;
-  z-index: 20;
 }
