@@ -1,0 +1,84 @@
+/*:not(body):not(html) {
+  box-sizing:border-box;
+  border:1px dashed #000;
+}*/
+
+
+body {
+  background:#000 url("../img/bg.jpg") no-repeat center top;
+  background:url("../img/noise-light.png"), #000 url("../img/bg.jpg") no-repeat center top;
+  color:#FFF;font-family:"Trebuchet MS",Arial,sans-serif;
+  font-size:16px;
+  line-height:1.5;
+  -moz-font-smoothing:antialiased;
+  -o-font-smoothing:antialiased;
+  -webkit-font-smoothing:antialiased;
+}
+
+a {
+  color:#da7e25;
+  text-decoration:none;
+  -webkit-transition:color 0.15s linear;
+  -moz-transition:color 0.15s linear;
+  -o-transition:color 0.15s linear;
+  transition:color 0.15s linear;
+}
+
+.navContainer {
+  background-color: rgba(0, 0, 0, 0.5);
+  width: 100vw;
+  height: 6em;
+}
+.navbar-brand {
+  width: auto;
+  height: auto;
+  display:
+}
+/*begin bootstrap nav customization*/
+/* navbar */
+.navbar-collapse {
+  border-top: 0;
+}
+.navbar {
+  background:#000 url("../img/logo.png") no-repeat left 1.25em;
+  padding: 1.5em;
+  margin: 0;
+  border: 0;
+  border-radius: 0px;
+}
+.navbar-default {
+    background-color: rgba(0, 0, 0, 0.0);
+    border: 0;
+}
+/* link */
+.navbar-default .navbar-nav > li > a {
+    color: #da7e25;
+}
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+  color: #fcd700;
+}
+/* mobile version */
+
+.navbar-default .navbar-toggle {
+  border: 0;
+    border-color: rgba(0, 0, 0, 0.0);
+}
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus {
+  border: 0;
+    background-color: rgba(0, 0, 0, 0.0);
+}
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #da7e25;
+}
+
+/*end bootstrap nav customization*/
+@media only screen and (max-width:400px) {
+  .navbar {
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+  .navContainer {
+    background-color: rgba(0, 0, 0, 0.0);
+  }
+}
